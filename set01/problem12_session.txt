@@ -17,3 +17,8 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem12_session.txt
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> Start-Transcript -Path "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem12_session.txt"
+**********************
+Windows PowerShell transcript end
+End time: 20231030103711
+**********************
