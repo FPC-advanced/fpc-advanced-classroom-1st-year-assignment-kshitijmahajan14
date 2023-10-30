@@ -1,0 +1,138 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231026164239
+Username: DESKTOP-RPD4E78\Admin
+RunAs User: DESKTOP-RPD4E78\Admin
+Configuration Name: 
+Machine: DESKTOP-RPD4E78 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 16736
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11_session.txt
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 4:42:44 PM"
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-RPD4E78.(none)')
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe" 2>&1
+gcc : c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'input_complex':
+At line:1 char:1
++ gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\Admin\...input_complex'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: implicit declaration
+of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the real and imaginary part respectively: ");
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: incompatible implicit
+declaration of built-in function 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: implicit declaration
+of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f%f", &c.real, &c.imag);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: incompatible implicit
+declaration of built-in function 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: note: include '<stdio.h>' or
+provide a declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'output':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:21:5: warning: incompatible
+implicit declaration of built-in function 'printf'
+     printf("the sum of %f + %fi and %f + %fi is %f + %fi\n",a.real,a.imag, b.real, b.imag, sum.real,sum.imag);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:21:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe" 2>&1
+gcc : c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'input_complex':
+At line:1 char:1
++ gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\Admin\...input_complex'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: implicit declaration
+of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the real and imaginary part respectively: ");
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: incompatible implicit
+declaration of built-in function 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: implicit declaration
+of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f%f", &c.real, &c.imag);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: incompatible implicit
+declaration of built-in function 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: note: include '<stdio.h>' or
+provide a declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'output':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:19:5: warning: incompatible
+implicit declaration of built-in function 'printf'
+     printf("the sum of %f + %fi and %f + %fi is %f + %fi\n",a.real,a.imag, b.real, b.imag, sum.real,sum.imag);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:19:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe" 2>&1
+gcc : c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'input_complex':
+At line:1 char:1
++ gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\Admin\...input_complex'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: implicit declaration
+of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the real and imaginary part respectively: ");
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: warning: incompatible implicit
+declaration of built-in function 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:8:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: implicit declaration
+of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f%f", &c.real, &c.imag);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: warning: incompatible implicit
+declaration of built-in function 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:9:5: note: include '<stdio.h>' or
+provide a declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c: In function 'output':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:19:5: warning: incompatible
+implicit declaration of built-in function 'printf'
+     printf("the sum of %f + %fi and %f + %fi is %f + %fi\n",a.real,a.imag, b.real, b.imag, sum.real,sum.imag);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.c:19:5: note: include '<stdio.h>' or
+provide a declaration of 'printf'
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem11.exe
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 4:44:41 PM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026164541
+**********************

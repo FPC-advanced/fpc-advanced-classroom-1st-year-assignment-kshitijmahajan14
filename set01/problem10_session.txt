@@ -1,0 +1,141 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231026102217
+Username: DESKTOP-RPD4E78\Admin
+RunAs User: DESKTOP-RPD4E78\Admin
+Configuration Name: 
+Machine: DESKTOP-RPD4E78 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 10136
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10_session.txt
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:22:22 AM"
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-RPD4E78.(none)')
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.exe" 2>&1
+gcc : c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c: In function 'input_two_strings':
+At line:1 char:1
++ gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-cla ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\Admin\...t_two_strings'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:4:5: warning: implicit declaration of function
+'printf' [-Wimplicit-function-declaration]
+     printf("enter first string: ");
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:4:5: warning: incompatible implicit declaration of
+built-in function 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:4:5: note: include '<stdio.h>' or provide a
+declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:5:5: warning: implicit declaration of function
+'scanf' [-Wimplicit-function-declaration]
+     scanf("%s", string1);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:5:5: warning: incompatible implicit declaration of
+built-in function 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:5:5: note: include '<stdio.h>' or provide a
+declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c: In function 'output':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:26:9: warning: incompatible implicit declaration of
+built-in function 'printf'
+         printf("%s is greater than %s", string1, string2);
+         ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:26:9: note: include '<stdio.h>' or provide a
+declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:29:9: warning: incompatible implicit declaration of
+built-in function 'printf'
+         printf("%s is greater than %s", string2, string2);
+         ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:29:9: note: include '<stdio.h>' or provide a
+declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:32:9: warning: incompatible implicit declaration of
+built-in function 'printf'
+         printf("both %s and %s are equal", string1, string2);
+         ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.c:32:9: note: include '<stdio.h>' or provide a
+declaration of 'printf'
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10.exe
+hello is greater than Hello
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:26:21 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem01.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem01.exe" 2>&1
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem01.exe
+kshitij mahajan
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:26:58 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:09 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:17 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:24 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:29 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:35 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:43 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:27:55 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git commit -m "committed 10/26/2023, 10:28:01 AM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> Start-Transcript -Path "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem10_session.txt"
+**********************
+Windows PowerShell transcript end
+End time: 20231026102823
+**********************
