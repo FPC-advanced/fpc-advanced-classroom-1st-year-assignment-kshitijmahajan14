@@ -27,3 +27,12 @@ PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> git push
 
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem12.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem12.exe" 2>&1
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set01\problem12.exe
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231030103458
+**********************
