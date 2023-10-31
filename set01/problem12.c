@@ -20,8 +20,15 @@ Complex input_complex(){
     return c;
 }
 
+void input_n_complex(int n, Complex c[n]) {
+    for(int i = 0; i < n; i++) {
+        printf("Enter complex number %d\n", i+1);
+        c[i] = input_complex();
+    }
+}
+
 Complex add_n_complex(int n, Complex c[n]){
-    Complex sum={0,0};
+    Complex sum;
     for(int i; i<n; i++){
         sum.real += c[i].real;
         sum.imag += c[i].imag;
@@ -32,7 +39,8 @@ void output(Complex result){
     printf("the sum of all complex numbers is %f is %fi", result.real, result.imag);
 }
 
-int main(){
+int main()
+{
     int n = get_n();
     Complex c[n];
     input_complex();
