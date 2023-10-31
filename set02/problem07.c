@@ -11,7 +11,7 @@ Triangle input_triangle(){
     return t;
 }
 void find_area(Triangle *t){
-    t->area=t->base*t->height;
+    t->area=0.5*t->base*t->height;
 }
 void output(Triangle t){
     printf("the area of the triangle is %f", t.area);
