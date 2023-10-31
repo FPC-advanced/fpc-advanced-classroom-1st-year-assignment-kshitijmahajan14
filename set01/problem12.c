@@ -38,7 +38,7 @@ Complex add_n_complex(int n, Complex c[n]) {
 }
 
 void output(int n, Complex c[n], Complex result) {
-printf(" is (%f + %fi)", result.real, result.imag);
+printf("the sum of all complex numbers is %f + %fi", result.real, result.imag);
 }
 
 int main() {
