@@ -19,7 +19,7 @@ Triangle input_triangle(){
 }
 void input_n_triangles(int n, Triangle t[n]){
     for(int i=0;i<n;i++){
-    printf("triangle %d", i+1);
+    printf("for triangle %d: ", i+1);
     t[i]=input_triangle();
     }
 }
