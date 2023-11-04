@@ -46,7 +46,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n]) {
 }
 
 void output(int n, Triangle t[n], Triangle smallest) {
-    printf("the triangle with area %.2f is smallest.", smallest.area);
+    printf("the triangle with area %.2f units is smallest.", smallest.area);
 }
 
 int main() {
