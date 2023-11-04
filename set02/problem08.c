@@ -22,7 +22,6 @@ void input_n_triangles(int n, Triangle t[n]){
     printf("triangle %d", i+1);
     t[i]=input_triangle();
     }
-    return 0;
 }
 void find_area(Triangle *t){
     t->area=t->base*t->height*0.5;
