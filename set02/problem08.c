@@ -56,7 +56,7 @@ int main() {
     input_n_triangles(t,n);
     find_n_areas(t,n);
     Triangle smallest = find_smallest_triangle(t,n);
-    output(t,n,smallest);
+    output(t,n,smallest); 
 
     return 0;
-}
+} /*no need to call functions that are already called inside other functions in main()*/
