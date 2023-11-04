@@ -1,3 +1,5 @@
+/*smallest of n triangles*/
+
 #include <stdio.h>
 
 typedef struct{
