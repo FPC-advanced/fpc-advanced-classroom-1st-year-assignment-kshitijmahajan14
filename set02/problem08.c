@@ -51,11 +51,12 @@ void output(int n, Triangle t[n], Triangle smallest) {
 
 int main() {
     int n = input_n();
+
     Triangle t[n];
-    input_n_triangles(n, t);
-    find_n_areas(n, t);
-    Triangle smallest = find_smallest_triangle(n, t);
-    output(n, t, smallest);
+    input_n_triangles(t,n);
+    find_n_areas(t,n);
+    Triangle smallest = find_smallest_triangle(t,n);
+    output(t,n,smallest);
 
     return 0;
 }
