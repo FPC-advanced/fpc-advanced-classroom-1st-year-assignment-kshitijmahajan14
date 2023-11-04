@@ -47,9 +47,7 @@ void output(int n, Triangle t[n], Triangle smallest){
 int main(){
     int n=input_n();
     Triangle t[n];
-    input_triangle(t,n);
     input_n_triangles(t,n);
-    find_area(t);
     find_n_areas(t,n);
     Triangle smallest = find_smallest_triangle(t,n);
     output(n,t,smallest);
