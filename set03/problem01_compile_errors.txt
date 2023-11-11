@@ -25,3 +25,5 @@ c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void input(float *x1, float *y1, float *x2, float *y2){
       ^~~~~
 Compilation finished at 11/11/2023, 6:46:55 PM
+Compilation started at 11/11/2023, 6:49:02 PM
+Compilation finished at 11/11/2023, 6:49:03 PM
