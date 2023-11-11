@@ -1,0 +1,13 @@
+Compilation started at 11/11/2023, 7:11:58 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set03\problem02.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14\set03\problem02.c:38:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(&x1,&y1,&x2,&y2,&x3,&y3);
+     ^~~~~
+C:\Users\Admin\AppData\Local\Temp\cceGqFBW.o: In function `main':
+c:/Users/Admin/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-kshitijmahajan14/set03/problem02.c:38: undefined reference to `input'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/11/2023, 7:11:58 PM
+Compilation started at 11/11/2023, 7:12:22 PM
+Compilation finished at 11/11/2023, 7:12:23 PM
+Compilation started at 11/11/2023, 7:16:22 PM
+Compilation finished at 11/11/2023, 7:16:23 PM
