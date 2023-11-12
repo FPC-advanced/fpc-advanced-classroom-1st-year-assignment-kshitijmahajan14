@@ -16,6 +16,7 @@ int is_prime(int n){
             return 0;
         }
     }
+    return 1;
 }
 void output(int n, int result){
     if(result==1){
